@@ -1,0 +1,281 @@
+/* ! General */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 0;
+  color: #40514e;
+}
+html {
+  font-size: 62.5%;
+}
+/* ? For links */
+.links {
+  text-decoration: none;
+  color: #11999e;
+}
+.links:hover {
+  color: #66bfbf;
+}
+/* ? For Heading h2 */
+.heading-2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+/* ? For Heading h3 */
+.heading-3 {
+  font-size: 1.5rem;
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ? Line Gaps */
+.gap {
+  color: #eaf6f6;
+  border: dotted 0.8rem;
+  border-bottom: none;
+  width: 2rem;
+  margin: 10rem auto;
+}
+
+/* ? For Paragraph */
+
+.para {
+  line-height: 2;
+  font-size: 1.4rem;
+}
+
+/* ! navbar */
+.navBar {
+  background: #e4f9f5;
+  color: wheat;
+}
+
+/* * list  */
+.rightSide {
+  list-style: none;
+  display: inline-block;
+}
+.linksNav {
+  color: #30e3cb;
+  font-size: 2rem;
+  display: inline-block;
+  margin-right: 5rem;
+  position: relative;
+  bottom: 7rem;
+  text-decoration: none;
+}
+.linksNav:hover {
+  color: #66bfbf;
+}
+
+.leftSide {
+  text-align: left;
+  display: inline-block;
+}
+
+.dpImage {
+  width: 7rem;
+  margin-right: 35rem;
+  border-radius: 50%;
+  height: auto;
+  padding: 5rem;
+}
+
+/* !top section */
+.heading-1 {
+  color: #66bfbf;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 10rem;
+  font-weight: lighter;
+}
+div.top {
+  background: #e4f9f5;
+  position: relative;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 30rem;
+  left: 25rem;
+}
+.top-cloud {
+  position: absolute;
+  right: 20rem;
+}
+/* !Profile */
+.bio {
+  width: 40%;
+  margin: auto;
+}
+
+/*! For  top container */
+.middle-container {
+  margin: 10rem 0;
+}
+
+/*  !Skills Section */
+div.skill-row {
+  margin: 10rem auto 10rem auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+/* ! First skill Image */
+img.img1 {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 3rem;
+}
+/* ! Second skill Image */
+img.img2 {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 3rem;
+}
+
+img.dp {
+  border-radius: 50%;
+}
+
+img.pencil {
+  width: 10rem;
+  padding: 5rem;
+}
+
+/* !  Contact  Section */
+
+.margin {
+  margin: 3rem 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.contact-message {
+  width: 40%;
+  margin: 4rem auto 6rem;
+}
+
+/* * Work Page */
+.work {
+  padding: 5rem;
+}
+
+/* todo project1 */
+.project1 {
+  width: 100%;
+  height: 100rem;
+  background: rgb(109, 209, 134);
+  /* padding: 2rem; */
+}
+.p1 {
+  width: 30%;
+  padding: 1rem;
+}
+.p1para {
+  font-size: 1.5rem;
+  color: purple;
+}
+
+/* todo project2 */
+.project2 {
+  width: 100%;
+  height: 35rem;
+  background: rgb(209, 109, 139);
+}
+.p2 {
+  width: 30%;
+  padding: 2rem;
+}
+.p2para {
+  font-size: 1.5rem;
+  color: rgb(0, 128, 17);
+  text-align: center;
+}
+
+/* todo project3 */
+.project3 {
+  width: 100%;
+  height: 45rem;
+  background: rgb(156, 109, 209);
+}
+.p3 {
+  width: 30%;
+  padding: 2rem;
+}
+.p3para {
+  font-size: 1.5rem;
+  color: rgb(128, 58, 0);
+  text-align: center;
+}
+
+/* todo project4 */
+.project4 {
+  width: 100%;
+  height: 80rem;
+  background: rgb(187, 209, 109);
+}
+.p4 {
+  width: 30%;
+  padding: 2rem;
+}
+.p4para {
+  font-size: 1.5rem;
+  color: rgb(0, 128, 53);
+  text-align: center;
+}
+
+/* ! Footer */
+
+.bottom-container {
+  background: #66bfbf;
+  padding: 5rem 0 2rem;
+  margin-top: 2rem;
+}
+
+.footer-link {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1rem 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+/*  ! Footer */
+.copyright {
+  /* font-size: 21rem; */
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 2rem 0;
+}
